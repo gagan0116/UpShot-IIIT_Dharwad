@@ -1,0 +1,292 @@
+/* body */
+body{
+    color: rgb(63, 66, 70);
+    font-family: 'Manrope', sans-serif;
+    background-color: rgb(255, 246, 246);
+    transition: background .2s linear;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden;
+}
+
+/* Dark - mode changes */
+#navbar-mod{
+    transition: background .2s linear;
+}
+
+/* Body-dark mode */
+.dark-mode {
+    background-color: #272a33;
+    color: white;
+  }
+
+.dark-mode a{
+    color: rgb(255, 199, 125);
+}
+
+.dark-mode a:hover{
+    color: whitesmoke;
+}
+
+.dark-mode .list-group-item{
+    color: rgb(247, 63, 63);
+}
+
+.dark-mode .list-group-item:hover{
+    color: black;
+}
+
+/* navbar dark mode */
+.dark-mode .navbar-brand {
+    color: rgb(255, 191, 95);
+}
+
+.dark-mode .navbar-brand:hover {
+    color: rgb(233, 195, 138);
+}
+
+.dark-mode .navbar-toggler{
+    background-color: white;
+    height: 4px;
+    width: 4px;
+}
+
+
+/* button dark mode */
+.dark-mode .btn-outline-primary{
+    color: black;
+    background-color: whitesmoke;
+    border-color: rgb(168, 236, 236);
+}
+
+.dark-mode .btn-outline-primary:hover{
+    color: white;
+}
+
+/* navbar margin */
+.container-fluid{
+    margin: 1%;
+}
+
+/* navbar */
+.label {
+    height: 26px;
+    width: 27px;
+    border-radius: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+    padding: 6px;
+}
+
+/* Theme toggler */
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+/* Theme icons */
+.fa-moon{
+    color: #f1c40f;
+}
+
+/* navbar text */
+.navbar-text{
+    font-size: 1.3rem;
+    padding-left: 4%;
+    font-family: 'Comfortaa', cursive;
+}
+
+a.navbar-brand{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(235, 71, 30);
+}
+
+.navbar-light .navbar-brand:hover {
+    color: rgb(218, 87, 54);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(211, 49, 49);
+    font-weight: 500;
+}
+
+#profile{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* carousels */
+.carousel .carousel-item {
+    max-height: 560px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height: 550px;
+}  
+/* carousel prev and next buttons width */
+.carousel-control-prev {
+    width: 75px;
+}
+.carousel-control-next {
+    width: 75px;
+}
+
+/* features */
+#f1,#f2,#f3,#f4,#f5,#f6{
+    padding: 5%;
+}
+
+p{
+    font-size: 1.2rem;
+}
+/* features .container-fluid */
+#featcon.container-fluid{
+    padding: 3% 17% 3% 15%;
+}
+
+#f2,#f4,#f6{
+    padding-left: 2%;
+}
+#f1,#f3,#f5{
+    padding-right: 0%;
+}
+
+/* upload notes */
+a .fa-circle-plus{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-left: 25%;
+    margin-top: 5%;
+    color: orangered;
+}
+
+/* image features */
+.eximg{
+    position: relative;
+    width: 85%;
+    border-radius: 3.5rem;
+}
+
+/* features in smaller screens */
+@media (max-width: 920px) {
+    #f1,#f2,#f3,#f4,#f5,#f6{
+        text-align: center;
+    }    
+    #f1,#f3,#f5{
+        padding: 0% 5% 0%;
+    }
+    #featcon.container-fluid{
+        padding: 3% 10% 0% 10%;
+    }
+    a .fa-circle-plus{
+        text-align: center;
+        font-size: 2.4rem;
+        margin:auto;
+        margin-bottom: 8%;
+        color: orangered;
+    }
+}
+
+/* modals */
+.modal{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content{
+    background-color: white;
+    color: black;
+}
+
+.list-group-item:hover{
+    color: rgb(247, 63, 63);
+}
+
+/* Professor section */
+.btn-outline-primary{
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.btn-outline-primary:hover{
+    background-color: rgb(216, 82, 49);
+    border: 3px solid rgb(216, 82, 49);
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+/* footer icons */
+footer i{
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: red;
+}
+
+footer i:hover{
+    color: rgb(120, 235, 91);
+}
+/* copyright */
+footer p{    
+    color: #8f8f8f;
+    font-size: 1rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+color: #111;}
+  
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#profile-container {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#profile-container img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+#profile-container img:hover {
+    cursor: pointer;
+}
